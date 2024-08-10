@@ -340,3 +340,77 @@
     /* Maintains card's max-width */
   }
 }
+
+/* Style for the Back to Top link */
+.back-to-top {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff; /* Default text color */
+  background: #007bff; /* Default background color */
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 3D effect */
+}
+
+/* Hover state */
+.back-to-top:hover {
+  background: #fff; /* Background color on hover */
+  color: #007bff; /* Text color on hover */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+/* Add background color to the footer */
+footer {
+  background-color: #f8f9fa; /* Light background color */
+  padding: 20px;
+  border-top: 1px solid #e0e0e0; /* Light border for separation */
+}
+
+/* Style the icons */
+.icon {
+  font-size: 20px; /* Adjust size if needed */
+  color: black; /* Default color for icons */
+  transition: color 0.3s ease, text-shadow 0.3s ease; /* Smooth transition for color and glow */
+}
+
+/* Hover effect */
+.icon:hover {
+  color: white; /* Color change on hover */
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Glowing effect */
+}
+
+
+footer {
+  background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient background from pink to orange */
+  padding: 20px 0; /* Top and bottom padding */
+  border-top: 1px solid #dee2e6; /* Optional border at the top */
+}
+
+footer p {
+  margin: 0; /* Remove default margin */
+}
+
+footer .icon {
+  color: #fff; /* White icon color for better contrast */
+  transition: all 0.3s ease;
+  font-size: 20px; /* Adjust size as needed */
+}
+
+footer .icon:hover {
+  color: #00ff99; /* Neon green color */
+  text-shadow: 0 0 5px #00ff99, 0 0 10px #00ff99, 0 0 15px #00ff99, 0 0 20px #00ff99;
+  transform: scale(1.1); /* Slightly enlarge the icon on hover */
+}
+
+footer .icon:active {
+  color: #00ff99; /* Neon green color */
+  text-shadow: 0 0 5px #00ff99, 0 0 10px #00ff99, 0 0 15px #00ff99, 0 0 20px #00ff99;
+  transform: scale(0.9); /* Slightly shrink the icon on click */
+}
+
+
