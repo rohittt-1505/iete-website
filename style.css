@@ -174,7 +174,7 @@
     display: block;
     justify-items: center;
   }
-  
+
 }
 
 
@@ -275,42 +275,53 @@
 .adjust {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around; /* Centers cards horizontally */
-  gap: 1rem; /* Space between cards */
+  justify-content: space-around;
+  /* Centers cards horizontally */
+  gap: 1rem;
+  /* Space between cards */
 }
 
 .card {
   width: 18rem;
-  border: 1px solid #ddd; /* Border around the entire card */
-  border-radius: 8px; /* Rounded corners for the card */
-  overflow: hidden; /* Ensures content does not overflow the card */
-  margin-bottom: 1rem; /* Adds space between cards */
+  border: 1px solid #ddd;
+  /* Border around the entire card */
+  border-radius: 8px;
+  /* Rounded corners for the card */
+  overflow: hidden;
+  /* Ensures content does not overflow the card */
+  margin-bottom: 1rem;
+  /* Adds space between cards */
 }
 
 .card-img-top {
-  border-bottom: 1px solid #ddd; /* Border between image and card body */
+  border-bottom: 1px solid #ddd;
+  /* Border between image and card body */
 }
 
 .card-body {
   padding: 1rem;
-  border-top: 1px solid #ddd; /* Border between card body and other elements */
+  border-top: 1px solid #ddd;
+  /* Border between card body and other elements */
 }
 
 .card-title {
-  border-bottom: 1px solid #ddd; /* Border between title and text */
+  border-bottom: 1px solid #ddd;
+  /* Border between title and text */
   padding-bottom: 0.5rem;
   margin-bottom: 0.5rem;
 }
 
 .card-text {
-  border-top: 1px solid #ddd; /* Border between text and other elements */
+  border-top: 1px solid #ddd;
+  /* Border between text and other elements */
   padding-top: 0.5rem;
 }
 
 /* Default styles for larger screens */
 .card {
   width: 18rem;
-  margin-bottom: 1rem; /* Adds space between cards */
+  margin-bottom: 1rem;
+  /* Adds space between cards */
 }
 
 /* Media query for screens smaller than 576px (mobile devices) */
@@ -318,10 +329,14 @@
   .adjust {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centers cards horizontally */
+    align-items: center;
+    /* Centers cards horizontally */
   }
+
   .card {
-    width: 100%; /* Full width on smaller screens */
-    max-width: 18rem; /* Maintains card's max-width */
+    width: 100%;
+    /* Full width on smaller screens */
+    max-width: 18rem;
+    /* Maintains card's max-width */
   }
 }
