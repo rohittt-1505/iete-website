@@ -153,30 +153,40 @@
   width: 100%;
   height: auto; /* Maintains aspect ratio */
   max-height: 500px; /* Maximum height on larger screens */
-  object-fit: contain; /* Ensures entire image is visible */
+  object-fit: cover; 
+}
+#group-img, #core-img{
+  width: 100%;
+  height: auto; /* Maintains aspect ratio */
+  max-height: 500px; 
 }
 
 @media (max-width: 250px) {
-  #oscillations-img {
+  #oscillations-img, #group-img,#core-img  {
     width: 100vw; /* Takes full viewport width */
     height: auto; /* Maintains aspect ratio */
-    max-height: 600px; /* Slightly larger height on very small screens */
-    object-fit: contain; /* Ensures the image is fully visible */
+    max-height: 600px; /* Adjust height to be slightly larger on very small screens */
+    object-fit: cover; /* Ensures the image is fully visible */
   }
 }
-
-#group-img {
+#emerging-technologies{
   width: 100%;
   height: auto; /* Maintains aspect ratio */
   max-height: 500px; /* Maximum height on larger screens */
-  object-fit: contain; /* Ensures entire image is visible */
+  object-fit: cover; 
+}
+#core-img2 {
+  width: 100%;
+  height: auto;
+  max-height: 500px; /* Adjust as needed */
+  object-fit: cover;
 }
 
-@media (max-width: 250px) {
-  #group-img {
-    width: 100vw; /* Takes full viewport width */
-    height: auto; /* Maintains aspect ratio */
-    max-height: 1000px; /* Slightly larger height on very small screens */
-    object-fit: contain; /* Ensures the image is fully visible */
-  }
+#core-img3 {
+  width: 100%;
+  height: auto;
+  max-height: 500px; /* Adjust as needed */
+  object-fit: cover;
 }
+
+
