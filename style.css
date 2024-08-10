@@ -97,7 +97,9 @@
   color: #f8ce0b;
   margin: 0 5px;
 }
-
+.mobile-grp-pic .carousel-new{
+  display: none;
+}
 /* CSS for responsive design */
 @media screen and (max-width: 768px) {
   .testimonial-carousel .carousel-item {
@@ -137,17 +139,36 @@
 }
 
 /*---- MOBILE----*/
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 540px) {
   .carousel {
     border-radius: 0;
 
   }
 
   .carousel .carousel-caption {
-    font-size: smaller;
+    font-size: x-small;
     text-align: center;
   }
 }
+@media (max-width:540px) {
+  .carousel-inner{
+    width: 100%;
+    height: 200px;
+    /* object-fit: cover; */
+  }
+  .carousel-item .container .carousel-caption{
+    display: none;
+  }
+  .mobile-grp-pic .carousel-new{
+    display: block ;
+  }
+}
+/* @media (max-width:540px) {
+  .mobile-grp-pic .carousel-new{
+    display: block;
+    color: red;
+  }
+} */
 
 #group-img, #core-img{
   width: 100%;
@@ -159,7 +180,7 @@
   #group-img  {
     width: 100vw; /* Takes full viewport width */
     height: 100vh; /* Maintains aspect ratio */
-    max-height: 500px; /* Adjust height to be slightly larger on very small screens */
+    max-height: 700px; /* Adjust height to be slightly larger on very small screens */
     object-fit: cover; /* Ensures the image is fully visible */
   }
 }
