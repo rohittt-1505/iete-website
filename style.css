@@ -175,21 +175,25 @@
   width: 100%;
   height: auto; /* Maintains aspect ratio */
   max-height: 500px; /* Maximum height on larger screens */
-  object-fit: cover; 
+  /* object-fit: cover;  */
 }
 #core-img2 {
   width: 100%;
   height: auto;
   max-height: 500px; /* Adjust as needed */
-  object-fit: cover;
+  /* object-fit: cover; */
 }
 
 #core-img3 {
   width: 100%;
   height: auto;
   max-height: 500px; /* Adjust as needed */
-  object-fit: cover;
+  /* object-fit: cover; */
 }
-
+.carousel-inner{
+  width: 100%;
+  height: auto;
+  /* object-fit: cover; */
+}
 
 
