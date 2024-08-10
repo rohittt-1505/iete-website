@@ -309,6 +309,7 @@
   /* Border between title and text */
   padding-bottom: 0.5rem;
   margin-bottom: 0.5rem;
+  text-align: center;
 }
 
 .card-text {
@@ -323,6 +324,8 @@
   margin-bottom: 1rem;
   /* Adds space between cards */
 }
+
+
 
 /* Media query for screens smaller than 576px (mobile devices) */
 @media (max-width: 576px) {
