@@ -177,6 +177,6 @@
     width: auto; /* Adjusts width to maintain aspect ratio */
     height: auto; /* Adjust height to maintain aspect ratio */
     max-width: 100vw; /* Prevents the image from exceeding the viewport width */
-    max-height: 700px; /* Adjust height to be a little bigger */
+    max-height: 1000px; /* Adjust height to be a little bigger */
   }
 }
