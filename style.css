@@ -325,7 +325,9 @@
   /* Adds space between cards */
 }
 
-
+.card-body{
+  background: linear-gradient(to right, #d0bdf4, #e5eaf5); 
+}
 
 /* Media query for screens smaller than 576px (mobile devices) */
 @media (max-width: 576px) {
@@ -417,3 +419,24 @@ footer .icon:active {
 }
 
 
+/* Card Animation */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for transform and shadow */
+  border: 1px solid #ddd; /* Optional: Add a border for better visibility */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Slightly scale up the card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+}
+
+/* Optional: Adjust the card image for better responsiveness */
+.card-img-top {
+  transition: transform 0.3s ease; /* Smooth transition for image */
+}
+
+.card:hover .card-img-top {
+  transform: scale(1.05); /* Slightly scale up the image when hovering */
+}
+
+/* events */
