@@ -10,8 +10,9 @@
   filter: blur(8px);
 }
 
-.align {
-  position: relative;
+ .buttons .contains-buttons{
+  display: flex;
+
 }
 
 .color {
