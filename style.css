@@ -12,6 +12,7 @@
 
  .buttons .contains-buttons{
   display: flex;
+  object-fit: contain;
 
 }
 
