@@ -149,12 +149,6 @@
   }
 }
 
-#oscillations-img {
-  width: 100%;
-  height: auto; /* Maintains aspect ratio */
-  max-height: 500px; /* Maximum height on larger screens */
-  object-fit: cover; 
-}
 #group-img, #core-img{
   width: 100%;
   height: auto; /* Maintains aspect ratio */
@@ -162,7 +156,15 @@
 }
 
 @media (max-width: 250px) {
-  #oscillations-img, #group-img,#core-img  {
+  #group-img  {
+    width: 100vw; /* Takes full viewport width */
+    height: 100vh; /* Maintains aspect ratio */
+    max-height: 500px; /* Adjust height to be slightly larger on very small screens */
+    object-fit: cover; /* Ensures the image is fully visible */
+  }
+}
+@media (max-width: 250px) {
+  #core-img  {
     width: 100vw; /* Takes full viewport width */
     height: auto; /* Maintains aspect ratio */
     max-height: 500px; /* Adjust height to be slightly larger on very small screens */
