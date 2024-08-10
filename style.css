@@ -10,7 +10,7 @@
   filter: blur(8px);
 }
 
- .buttons .contains-buttons{
+.buttons .contains-buttons {
   display: flex;
   object-fit: contain;
 
@@ -99,9 +99,11 @@
   color: #f8ce0b;
   margin: 0 5px;
 }
-.mobile-grp-pic .carousel-new{
+
+.mobile-grp-pic .carousel-new {
   display: none;
 }
+
 /* CSS for responsive design */
 @media screen and (max-width: 768px) {
   .testimonial-carousel .carousel-item {
@@ -152,24 +154,29 @@
     text-align: center;
   }
 }
+
 @media (max-width:540px) {
-  .carousel-inner{
+  .carousel-inner {
     width: 100%;
     height: 200px;
     /* object-fit: cover; */
   }
-  .carousel-item .container .carousel-caption{
+
+  .carousel-item .container .carousel-caption {
     display: none;
   }
-  .mobile-grp-pic .carousel-new{
-    display: block ;
+
+  .mobile-grp-pic .carousel-new {
+    display: block;
   }
-  .buttons .contains-buttons{
+
+  .buttons .contains-buttons {
     display: block;
     justify-items: center;
-  
+
   }
 }
+
 /* @media (max-width:540px) {
   .mobile-grp-pic .carousel-new{
     display: block;
@@ -177,51 +184,67 @@
   }
 } */
 
-#group-img, #core-img{
+#group-img,
+#core-img {
   width: 100%;
-  height: auto; /* Maintains aspect ratio */
-  max-height: 500px; 
+  height: auto;
+  /* Maintains aspect ratio */
+  max-height: 500px;
 }
 
 @media (max-width: 250px) {
-  #group-img  {
-    width: 100vw; /* Takes full viewport width */
-    height: 100vh; /* Maintains aspect ratio */
-    max-height: 700px; /* Adjust height to be slightly larger on very small screens */
-    object-fit: cover; /* Ensures the image is fully visible */
+  #group-img {
+    width: 100vw;
+    /* Takes full viewport width */
+    height: 100vh;
+    /* Maintains aspect ratio */
+    max-height: 700px;
+    /* Adjust height to be slightly larger on very small screens */
+    object-fit: cover;
+    /* Ensures the image is fully visible */
   }
 }
+
 @media (max-width: 250px) {
-  #core-img  {
-    width: 100vw; /* Takes full viewport width */
-    height: auto; /* Maintains aspect ratio */
-    max-height: 500px; /* Adjust height to be slightly larger on very small screens */
-    object-fit: cover; /* Ensures the image is fully visible */
+  #core-img {
+    width: 100vw;
+    /* Takes full viewport width */
+    height: auto;
+    /* Maintains aspect ratio */
+    max-height: 500px;
+    /* Adjust height to be slightly larger on very small screens */
+    object-fit: cover;
+    /* Ensures the image is fully visible */
   }
 }
-#emerging-technologies{
+
+#emerging-technologies {
   width: 100%;
-  height: auto; /* Maintains aspect ratio */
-  max-height: 500px; /* Maximum height on larger screens */
+  height: auto;
+  /* Maintains aspect ratio */
+  max-height: 500px;
+  /* Maximum height on larger screens */
   /* object-fit: cover;  */
 }
+
 #core-img2 {
   width: 100%;
   height: auto;
-  max-height: 500px; /* Adjust as needed */
+  max-height: 500px;
+  /* Adjust as needed */
   /* object-fit: cover; */
 }
 
 #core-img3 {
   width: 100%;
   height: auto;
-  max-height: 500px; /* Adjust as needed */
+  max-height: 500px;
+  /* Adjust as needed */
   /* object-fit: cover; */
 }
-.carousel-inner{
+
+.carousel-inner {
   width: 100%;
   height: auto;
   /* object-fit: cover; */
 }
-
-
