@@ -440,6 +440,7 @@ footer .icon:active {
 }
 
 /* events */
+
 /* 3D effect for featurette sections */
 .featurette {
   perspective: 1000px;
@@ -447,11 +448,11 @@ footer .icon:active {
 
 .featurette .featurette-image {
   transform-style: preserve-3d;
-  transition: transform 0.5s;
+  transition: transform 0.4s;
 }
 
 .featurette:hover .featurette-image {
-  transform: rotateY(10deg) rotateX(10deg);
+  transform: rotateY(20deg) rotateX(20deg);
 }
 
 .featurette-heading {
