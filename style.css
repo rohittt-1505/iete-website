@@ -532,7 +532,7 @@ footer .icon:active {
  
 
 .mobile-grp-pic{
-  background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient background from pink to orange */
+  background: linear-gradient(to right, #d0bdf4, #e5eaf5); /* Gradient background from pink to orange */
   padding: 10px 0; /* Top and bottom padding */
   border-top: 1px solid #dee2e6; /* Optional border at the top */
   overflow: hidden;
