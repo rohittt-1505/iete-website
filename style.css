@@ -446,20 +446,20 @@ footer .icon:active {
   perspective: 1000px;
 }
 
-.featurette .featurette-image {
+.featurette .featurette-image1 {
   transform-style: preserve-3d;
   transition: transform 0.4s;
 }
 
-.featurette:hover .featurette-image {
+.featurette:hover .featurette-image1 {
   transform: rotateY(20deg) rotateX(20deg);
 }
 
-.featurette-heading {
+.featurette-heading1 {
   transform: perspective(500px) rotateX(0deg);
 }
 
-.featurette:hover .featurette-heading {
+.featurette:hover .featurette-heading1 {
   transform: perspective(500px) rotateX(-10deg);
 }
 
