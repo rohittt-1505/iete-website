@@ -500,3 +500,38 @@ footer:hover p {
 .btn-primary:hover::before {
   transform: translate(-50%, -50%) scale(1);
 }
+
+
+/* members pic align 1st */
+
+/* Ensure text alignment in the container */
+.animated-heading-container {
+  text-align: center; /* Center the text */
+  overflow: hidden; /* Prevent overflow */
+}
+
+/* Keyframes for fadeInUp animation */
+@keyframes fadeInUp {
+  from {
+      opacity: 0;
+      transform: translateY(20px); /* Start lower and invisible */
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0); /* End at normal position and fully visible */
+  }
+}
+
+/* Apply animation to the heading */
+.animated-heading-container {
+  animation: fadeInUp 2s ease-out; /* Use the animation defined above */
+}
+
+/* Additional styling for the heading (optional) */
+.animated-heading {
+  display: inline-block;
+  font-size: 2.5rem; /* Adjust font size as needed */
+  font-weight: bold;
+  color: #333; /* Adjust color as needed */
+}
+
