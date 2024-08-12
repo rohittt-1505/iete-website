@@ -646,3 +646,7 @@ footer .icon:active {
   align-items: center;
   justify-content: center;
 }
+
+.card-text span{
+  font-weight: bold;
+}
