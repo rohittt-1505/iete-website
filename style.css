@@ -598,8 +598,26 @@ footer .icon:active {
 }
 
 .card-body-scrollable {
-  max-height: 150px; /* Adjust height as needed */
+  max-height: 200px; /* Adjust height as needed */
   overflow-y: auto;
+}
+
+/* Custom scrollbar for WebKit browsers */
+.card-body-scrollable::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+}
+
+.card-body-scrollable::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Background color of the track */
+}
+
+.card-body-scrollable::-webkit-scrollbar-thumb {
+    background: #888; /* Color of the scrollbar thumb */
+    border-radius: 10px; /*Rounded corners of the thumb */
+}
+
+.card-body-scrollable::-webkit-scrollbar-thumb:hover {
+    background: #000; /* Color of the scrollbar thumb on hover */
 }
 
 .close-btn { 
@@ -607,7 +625,6 @@ footer .icon:active {
   background: #fff;
   /* font-size: 50px; */
   cursor: pointer;
-  /* padding-left: 260px; */
   color: #000;
   font-size: 1.5rem;
   font-weight: bold;
@@ -622,4 +639,10 @@ footer .icon:active {
 
 .close-btn:hover {
   background-color: red;
+}
+
+.side-btn{
+  padding-left: 295px;
+  align-items: center;
+  justify-content: center;
 }
