@@ -574,3 +574,39 @@ footer .icon:active {
   color: #fff;
   animation: glow 1.5s infinite;
 }
+
+
+
+/* Popup */
+
+#popUpMain{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  z-index: 1001;
+}
+
+#popup{
+  width: 100px;
+  height: 250px;
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(-50%,-70%);
+}
+
+.card-body-scrollable {
+  max-height: 150px; /* Adjust height as needed */
+  overflow-y: auto;
+}
+
+.close-btn {
+  
+  
+  border: none;
+  background: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}

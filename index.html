@@ -22,7 +22,24 @@
   <link rel="icon" href="asssets\iete_logo-removebg.png" type="image/x-icon">
 </head>
 
-<body style="background-color: #E8E9E6;">
+<body onload="myFunction()" style="background-color: #E8E9E6;">
+  <div id="loading"></div>
+
+  <div id="popUpMain" style="display: none;">
+    <div id="popup">
+      <button class="close-btn" id="closePopupBtn">&times;</button>
+      <div class="card" style="width: 18rem;">
+        <img src="/asssets/Event/Aarambh.webp" class="card-img-top" alt="...">
+        <div class="card-body card-body-scrollable">
+          <p class="card-text">A New Year's Resolution:
+            Aarambh 2023-24 marks the exciting start of IETE-SF's new tenure with its inaugural event. Celebrate the
+            launch of the annual magazine, featuring the latest updates, achievements, and insights from the past year.
+            This event will showcase the organization's new plans, initiatives, and opportunities for members, setting
+            the tone for an engaging and productive year ahead..</p>
+        </div>
+      </div>
+    </div>
+  </div>
   <header>
     <nav class="navbar navbar-expand-md navbar-light bg-light pl-5">
       <img class="pr-4" src="asssets/iete_logo-removebg.png" alt="" width="7%" height="7%">
@@ -539,6 +556,29 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+
+
+  <!-- for popup -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    var preloader = document.getElementById("loading");
+    function myFunction() {
+      preloader.style.display = "none";
+    };
+
+    $(document).ready(function () {
+      setTimeout(function(){
+        $('#popUpMain').css('display','block'); }, 5000);
+    });
+
+    $('.close-btn').click(function(){
+      $('#popUpMain').css('display','none');
+    });
+
+  </script>
+
+
 </body>
 
 </html>
