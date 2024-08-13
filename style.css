@@ -376,6 +376,35 @@
   /* Slight lift effect */
 }
 
+.contributor {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  /* Default text color */
+  background: #007bff;
+  /* Default background color */
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* 3D effect */
+}
+
+/* Hover state */
+.contributor:hover {
+  background: #fff;
+  /* Background color on hover */
+  color: #007bff;
+  /* Text color on hover */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  /* Enhanced shadow on hover */
+  transform: translateY(-2px);
+  /* Slight lift effect */
+}
+
 /* Add background color to the footer */
 footer {
   background-color: #f8f9fa;
@@ -649,4 +678,41 @@ footer .icon:active {
 
 .card-text span{
   font-weight: bold;
+}
+
+
+/* footer for thanks button */
+/* Footer styling */
+.footer {
+  display: flex; /* Use Flexbox for layout */
+  justify-content: space-between; /* Space out footer content and buttons */
+  align-items: center; /* Align items vertically centered */
+  padding: 10px 15px; /* Add padding */
+}
+
+.footer-content {
+  flex: 1; /* Take up available space on the left */
+}
+
+.footer-buttons {
+  display: flex; /* Stack buttons vertically */
+  flex-direction: column; /* Arrange buttons in a column */
+  align-items: flex-end; /* Align buttons to the right */
+}
+
+.footer-buttons p,
+.footer-content p {
+  margin: 0; /* Remove default margins */
+}
+
+.back-to-top,
+.contributor {
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 8px; /* Space between buttons */
+}
+
+.back-to-top:hover,
+.contributor:hover {
+  text-decoration: underline; /* Add underline on hover */
 }
