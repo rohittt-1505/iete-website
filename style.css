@@ -610,48 +610,54 @@ footer .icon:active {
 
 /* Popup */
 
-#popUpMain{
+#popUpMain {
   position: fixed;
   width: 100%;
   height: 100%;
-  background: rgba(0,0,0,0.6);
+  background: rgba(0, 0, 0, 0.6);
   z-index: 1001;
 }
 
-#popup{
+#popup {
   width: 100px;
   height: 250px;
   background-size: cover;
   position: absolute;
   top: 35%;
   right: 50%;
-  transform: translate(-50%,-70%);
+  transform: translate(-50%, -70%);
 }
 
 .card-body-scrollable {
-  max-height: 200px; /* Adjust height as needed */
+  max-height: 200px;
+  /* Adjust height as needed */
   overflow-y: auto;
 }
 
 /* Custom scrollbar for WebKit browsers */
 .card-body-scrollable::-webkit-scrollbar {
-    width: 10px; /* Width of the scrollbar */
+  width: 10px;
+  /* Width of the scrollbar */
 }
 
 .card-body-scrollable::-webkit-scrollbar-track {
-    background: #f1f1f1; /* Background color of the track */
+  background: #f1f1f1;
+  /* Background color of the track */
 }
 
 .card-body-scrollable::-webkit-scrollbar-thumb {
-    background: #888; /* Color of the scrollbar thumb */
-    border-radius: 10px; /*Rounded corners of the thumb */
+  background: #888;
+  /* Color of the scrollbar thumb */
+  border-radius: 10px;
+  /*Rounded corners of the thumb */
 }
 
 .card-body-scrollable::-webkit-scrollbar-thumb:hover {
-    background: #000; /* Color of the scrollbar thumb on hover */
+  background: #000;
+  /* Color of the scrollbar thumb on hover */
 }
 
-.close-btn { 
+.close-btn {
   border: none;
   background: #fff;
   /* font-size: 50px; */
@@ -672,13 +678,13 @@ footer .icon:active {
   background-color: red;
 }
 
-.side-btn{
+.side-btn {
   padding-left: 295px;
   align-items: center;
   justify-content: center;
 }
 
-.card-text span{
+.card-text span {
   font-weight: bold;
 }
 
@@ -686,35 +692,46 @@ footer .icon:active {
 /* footer for thanks button */
 /* Footer styling */
 .footer {
-  display: flex; /* Use Flexbox for layout */
-  justify-content: space-between; /* Space out footer content and buttons */
-  align-items: center; /* Align items vertically centered */
-  padding: 10px 15px; /* Add padding */
+  display: flex;
+  /* Use Flexbox for layout */
+  justify-content: space-between;
+  /* Space out footer content and buttons */
+  align-items: center;
+  /* Align items vertically centered */
+  padding: 10px 15px;
+  /* Add padding */
 }
 
 .footer-content {
-  flex: 1; /* Take up available space on the left */
+  flex: 1;
+  /* Take up available space on the left */
 }
 
 .footer-buttons {
-  display: flex; /* Stack buttons vertically */
-  flex-direction: column; /* Arrange buttons in a column */
-  align-items: flex-end; /* Align buttons to the right */
+  display: flex;
+  /* Stack buttons vertically */
+  flex-direction: column;
+  /* Arrange buttons in a column */
+  align-items: flex-end;
+  /* Align buttons to the right */
 }
 
 .footer-buttons p,
 .footer-content p {
-  margin: 0; /* Remove default margins */
+  margin: 0;
+  /* Remove default margins */
 }
 
 .back-to-top,
 .contributor {
   text-decoration: none;
   font-weight: bold;
-  margin-bottom: 8px; /* Space between buttons */
+  margin-bottom: 8px;
+  /* Space between buttons */
 }
 
 .back-to-top:hover,
 .contributor:hover {
-  text-decoration: underline; /* Add underline on hover */
+  text-decoration: underline;
+  /* Add underline on hover */
 }
