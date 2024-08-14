@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 .background {
   position: absolute;
   left: 0px;
