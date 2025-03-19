@@ -735,3 +735,26 @@ footer .icon:active {
   text-decoration: underline;
   /* Add underline on hover */
 }
+
+
+/*  */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+  background-color: white; /* optional */
+}
+
+.logo-left {
+  order: 1;
+}
+
+.title {
+  text-align: center;
+  order: 2;
+}
+
+.logo-right {
+  order: 3;
+}
